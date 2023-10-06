@@ -25,7 +25,7 @@ function BenTalk () {
         music.play(music.stringPlayable("D C D C D C D - ", 300), music.PlaybackMode.InBackground)
         basic.showString("HoHoHo")
     }
-    basic.pause(2000)
+    basic.pause(5000)
     if (input.soundLevel() < 139) {
         benHangUp()
     }
